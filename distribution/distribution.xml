@@ -1,0 +1,29 @@
+<assembly>
+    <id>bin</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <fileSets>
+        <fileSet>
+            <directory>target/generated-resources/appassembler/jsw/product-images-auto-uploader/lib</directory>
+            <outputDirectory>lib</outputDirectory>
+            <excludes>
+                <exclude>*.zip</exclude>
+                <exclude>*.xml</exclude>
+            </excludes>
+        </fileSet>
+        <fileSet>
+            <directory>target/generated-resources/appassembler/jsw/product-images-auto-uploader/logs</directory>
+            <outputDirectory>logs</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>target/generated-resources/appassembler/jsw/product-images-auto-uploader/conf</directory>
+            <outputDirectory>conf</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>target/generated-resources/appassembler/jsw/product-images-auto-uploader/bin</directory>
+            <outputDirectory>bin</outputDirectory>
+            <fileMode>0755</fileMode>
+        </fileSet>
+    </fileSets>
+</assembly>

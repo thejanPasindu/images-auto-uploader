@@ -1,0 +1,12 @@
+{
+  "properties": [
+    {
+      "name": "baseImageUrl",
+      "type": "java.lang.String",
+      "defaultValue": "http://dev.apptizer.lk/applova/app-images/images_storage/"
+    },
+    {
+      "name": "baseThumbnailUrl",
+      "type": "java.lang.String"
+    }
+  ] }
